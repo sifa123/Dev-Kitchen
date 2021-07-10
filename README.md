@@ -98,5 +98,30 @@ git push -u origin <your_branch_name>
 <p align="center"><img src="https://media.giphy.com/media/5mCQOcUfywmyI/giphy.gif" width=35%></p>
 
 
+<h2>✔Mentors(DevIncept)</h2>
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/Lourdemary"><img src="https://avatars.githubusercontent.com/u/60435111?v=4" width="80px;" alt=""/><br /><sub><b>Lourde Mary T</b></sub></a></td>   
+  </tr>
+</table>
+
+
+<h2> 😎 Project Admin</h2>
+
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Prathima%20updated%20profile%20pic.jpg" width=100px height=100px /></a>
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+
+
+<h2>⭐Give this Project a Star</h2>
+
+[![GitHub followers](https://img.shields.io/github/followers/prathimacode-hub.svg?label=Follow%20@prathimacode-hub&style=social)](https://github.com/prathimak88/)  [![Twitter Follow](https://img.shields.io/twitter/follow/prathimak88?style=social)](https://twitter.com/prathimak88)
+
+If you like this project, consider giving a ⭐ to this project and share it as much as you can.
+
+🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
+
+
+
 
 
