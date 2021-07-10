@@ -20,12 +20,12 @@ Are we missing any of your favorite features, which you think you can add to itâ
 
 To start contributing, follow the below guidelines: 
 
-**1.**  Fork [this](https://github.com/sifa123/Dev-Kitchen) repository.
+**1.**  Fork [this](https://github.com/sifa123/Dev-Kitchen.git) repository.
 
 **2.**  Clone your forked copy of the project.
 
 ```
-git clone --depth 1 https://github.com/sifa123/Dev-Kitchen
+git clone --depth 1 https://github.com/sifa123/Dev-Kitchen.git
 ```
 <img src="./readme_assets/CloneRepo.png" width="500">
 
@@ -38,7 +38,7 @@ cd awesome-portfolio-websites
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/smaranjitghose/awesome-portfolio-websites.git 
+git remote add upstream https://github.com/sifa123/Dev-Kitchen.git 
 ```
 
 **5.** Check the remotes for this repository.
@@ -93,7 +93,7 @@ git push -u origin <your_branch_name>
 <img src="./readme_assets/CreatePR.png" width=600>
 
 
-**15** Voila :exclamation: You have made a PR to the awesome-developer-portfolio project :boom: . Sit back patiently and relax while the project maintainers review your PR. Please understand at times the time can vary from a few hours to a few days
+**15** Voila :exclamation: You have made a PR to the Dev-kitchen project :boom: . Sit back patiently and relax while the project maintainers review your PR. Please understand at times the time can vary from a few hours to a few days
 
 <p align="center"><img src="https://media.giphy.com/media/5mCQOcUfywmyI/giphy.gif" width=35%></p>
 
