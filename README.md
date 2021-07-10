@@ -27,12 +27,12 @@ To start contributing, follow the below guidelines:
 ```
 git clone --depth 1 https://github.com/sifa123/Dev-Kitchen.git
 ```
-<img src="" width="500">
+<img src="https://github.com/singhanshika311/Dev-Kitchen/blob/main/images/readmeee.jpeg" width="500">
 
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd awesome-portfolio-websites
+cd Dev-Kitchen
 ```
 
 **4.** Add a reference(remote) to the original repository.
