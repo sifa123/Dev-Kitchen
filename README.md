@@ -119,7 +119,7 @@ git push -u origin <your_branch_name>
 
 <h2>⭐Give this Project a Star</h2>
 
-[![GitHub followers](https://img.shields.io/github/followers/prathimacode-hub.svg?label=Follow%20@prathimacode-hub&style=social)](https://github.com/prathimak88/)  [![Twitter Follow](https://img.shields.io/twitter/follow/prathimak88?style=social)](https://twitter.com/prathimak88)
+[![GitHub followers](https://img.shields.io/github/followers/prathimacode-hub.svg?label=Follow%20@prathimacode-hub&style=social)](https://github.com/sifa123)  
 
 If you like this project, consider giving a ⭐ to this project and share it as much as you can.
 
