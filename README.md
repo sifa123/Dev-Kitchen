@@ -20,12 +20,12 @@ Are we missing any of your favorite features, which you think you can add to itâ
 
 To start contributing, follow the below guidelines: 
 
-**1.**  Fork [this](https://github.com/smaranjitghose/awesome-portfolio-websites) repository.
+**1.**  Fork [this](https://github.com/sifa123/Dev-Kitchen) repository.
 
 **2.**  Clone your forked copy of the project.
 
 ```
-git clone --depth 1 https://github.com/<your_user_name>/awesome-portfolio-websites.git
+git clone --depth 1 https://github.com/sifa123/Dev-Kitchen
 ```
 <img src="./readme_assets/CloneRepo.png" width="500">
 
