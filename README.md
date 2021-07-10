@@ -109,7 +109,11 @@ git push -u origin <your_branch_name>
 
 <h2> 😎 Project Admin</h2>
 
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/singhanshika311" width=100px height=100px /></a>
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/singhanshika311"><img src="https://github.com/singhanshika311/Dev-Kitchen/blob/main/images/mentor.jpeg" width="80px;" alt=""/><br /><sub><b>ANSHIKA SINGH</b></sub></a></td>   
+  </tr>
+</table>
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
