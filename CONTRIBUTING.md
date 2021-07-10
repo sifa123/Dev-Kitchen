@@ -25,7 +25,7 @@ Refer to the following articles on the basics of Git and Github and can also con
 
 # How to make a Pull Request
 
-If you think that you can add a new feature or want to fix a bug. We invite you to contribute to FunwithPhysics and make this project better. To start contributing, follow the below instructions:
+If you think that you can add a new feature or want to fix a bug. We invite you to contribute to Dev-Kitchen and make this project better. To start contributing, follow the below instructions:
 
 1. Create a folder at your desire location (usually at your desktop).
 
