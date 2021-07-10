@@ -102,7 +102,7 @@ git push -u origin <your_branch_name>
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/Lourdemary"><img src="https://github.com/singhanshika311/Dev-Kitchen/blob/main/images/mentor.jpeg" width="80px;" alt=""/><br /><sub><b>Lourde Mary T</b></sub></a></td>   
+<td align="center"><a href="https://github.com/Lourdemary"><img src="https://github.com/singhanshika311/Dev-Kitchen/blob/main/images/mentor.jpeg" width="80px;" alt=""/><br /><sub><b>ANSHIKA SINGH</b></sub></a></td>   
   </tr>
 </table>
 
