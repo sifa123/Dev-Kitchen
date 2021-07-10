@@ -83,14 +83,14 @@ git push -u origin <your_branch_name>
 
 **12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
-<img src="./readme_assets/ComparePR.png" width=600>
+<img src width=600>
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
 
 **14.** Click on `Create Pull Request`.
 
-<img src="./readme_assets/CreatePR.png" width=600>
+<img src="https://github.com/singhanshika311/Dev-Kitchen/blob/main/images/pull.jpeg" width=600>
 
 
 **15** Voila :exclamation: You have made a PR to the Dev-kitchen project :boom: . Sit back patiently and relax while the project maintainers review your PR. Please understand at times the time can vary from a few hours to a few days
