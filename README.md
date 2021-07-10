@@ -102,14 +102,14 @@ git push -u origin <your_branch_name>
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/Lourdemary"><img src="https://avatars.githubusercontent.com/u/60435111?v=4" width="80px;" alt=""/><br /><sub><b>Lourde Mary T</b></sub></a></td>   
+<td align="center"><a href="https://github.com/Lourdemary"><img src="https://github.com/singhanshika311/Dev-Kitchen/blob/main/images/mentor.jpeg" width="80px;" alt=""/><br /><sub><b>Lourde Mary T</b></sub></a></td>   
   </tr>
 </table>
 
 
 <h2> 😎 Project Admin</h2>
 
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Prathima%20updated%20profile%20pic.jpg" width=100px height=100px /></a>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/singhanshika311/Dev-Kitchen/blob/main/images/pa.jpeg" width=100px height=100px /></a>
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
