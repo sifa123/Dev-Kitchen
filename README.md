@@ -27,7 +27,7 @@ To start contributing, follow the below guidelines:
 ```
 git clone --depth 1 https://github.com/sifa123/Dev-Kitchen.git
 ```
-<img src="./readme_assets/CloneRepo.png" width="500">
+<img src="" width="500">
 
 **3.** Navigate to the project directory :file_folder: .
 
