@@ -3,27 +3,42 @@
     padding:0;
 }
 /* TOP BAR */
+
 .top-bar{
     padding: 4px 0;
     font-size: 14px;
     color: #FF6F61;
     background: #000000;
 }
-.top-bar i {
+/* .navbar-brand i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .top-bar i {
     margin-right: 8px;
-}
+} */
 .navbar-brand{
   color:#FF6F61;
   cursor: pointer;
 }
+ion-icon{
+    font-size: 35px;
+    color: #FF6F61;;
+}
+ion-icon:hover{
+    color:orangered ;
+}
 .top-bar .brand1{
  position: relative;
- left:900px;  
+ float: right; 
 }
 .navbar-brand:hover{
     color:orangered;
 }
+
 /* MAIN BAR */
+
 #navbar{
     display:flex;
     align-items:center;
