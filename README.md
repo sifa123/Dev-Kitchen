@@ -11,7 +11,10 @@
  
  **4. JavaScript**
 
-# Contributing
+## Contributing
 Pull requests and Issues are welcomed. For any changes, please raise an issue first to discuss what you would like to change.
+
+- [Contributing guidelines](https://github.com/sifa123/Dev-Kitchen/blob/main/CONTRIBUTING.md)
+- [Code of conduct](https://github.com/sifa123/Dev-Kitchen/blob/main/CODE_OF_CONDUCT.md)
 
 
