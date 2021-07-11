@@ -1,10 +1,79 @@
 *{
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
-	outline: none;
-	border:none;
+    margin:0;
+    padding:0;
 }
-body{
-	
+/* TOP BAR */
+.top-bar{
+    padding: 4px 0;
+    font-size: 14px;
+    color: #FF6F61;
+    background: #000000;
 }
+.top-bar i {
+    margin-right: 8px;
+}
+.navbar-brand{
+  color:#FF6F61;
+  cursor: pointer;
+}
+.top-bar .brand1{
+ position: relative;
+ left:900px;  
+}
+.navbar-brand:hover{
+    color:orangered;
+}
+/* MAIN BAR */
+#navbar{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position:relative;
+    top:0px;
+    height:70px;
+}
+#navbar ul{
+    display:flex;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    position: relative;
+    right:45px;
+}
+#logo{
+    margin:20px 25px;
+    position: relative;
+    right:100px;
+}
+#logo img{
+    margin:35px 40px;
+    height:70px;
+}
+#navbar::before{
+    
+    display:block;
+    position:absolute;
+    z-index:-1;
+    background:linear-gradient(to right,rgb(193, 245, 228),rgb(204, 204, 248));;
+    opacity:1;
+    height:100%;
+    width:100%;
+    content:"";
+    top:0px;
+    left:0px;
+}
+#navbar ul li{
+    list-style:none;
+    font-size:1.3rem;
+}
+#navbar ul li a{
+    color:rgb(8, 80, 161);
+    padding:3px 22px;
+    display:block;
+    text-decoration:none;
+    border-radius:20px;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: blanchedalmond;
+}
+
