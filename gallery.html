@@ -1,9 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Gallery Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=".\styles\index.css">
+    
+    <title>Home</title>
 </head>
 <body>
+    <!-- TOP BAR -->
+    <nav class="top-bar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fa fa-envelope"></i>abc123@gmail.com 
+           </a>
+           <a class="navbar-brand brand1" href="#">9988776655</a> 
+        </div>
+       </nav>
 
+       <!-- MAIN BAR-->
+       <nav id="navbar">
+        <div id="logo">
+          <img src=".\images\logo.png" alt="logo image">
+      </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#about">About Us</a></li>
+            <li class="item"><a href="#section-container">Services</a></li>
+            <li class="item"><a href="#menu">Menu</a></li>
+            <li class="item"><a href="#gallery">Gallery</a></li>
+            <li class="item"><a href="#review">Reviews</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+           </ul>
+    </nav> 
+
+    <!-- SWIPER-->
+    <div #swiperRef="" class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src=".\images\food6.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src=".\images\food3.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src=".\images\food4.png">
+        </div>
+        <div class="swiper-slide">
+          <img src=".\images\food9.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src=".\images\food7.jpg" width="300">
+        </div>
+        <div class="swiper-slide">
+          <img src=".\images\food2.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img src=".\images\food8.png">
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      
+    </div>
+
+   
+
+
+         <!-- Initialize Swiper -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
+       <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script> 
 </body>
 </html>
