@@ -2,6 +2,12 @@
     margin:0;
     padding:0;
 }
+
+body{
+    min-height: 100vh;
+}
+
+
 /* TOP BAR */
 
 .top-bar{
@@ -98,3 +104,39 @@ ion-icon:hover{
     background-color: blanchedalmond;
 }
 
+
+
+
+
+
+/***********************
+          footer
+************************/		  
+
+footer {
+	background: rgb(0, 0, 0);
+    position: sticky;
+	top: 100%;
+}
+
+a:link {
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited {
+	
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:active {
+	color: #fff;
+	text-decoration: none;
+}

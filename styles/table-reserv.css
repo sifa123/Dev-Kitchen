@@ -5,6 +5,36 @@
 	outline: none;
 	border:none;
 }
-body{
+body {
+	min-height: 100vh;
+}
+
+/***********************
+          footer
+************************/		  
+
+footer {
+	background: rgb(0, 0, 0);
+}
+
+a:link {
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited {
 	
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:active {
+	color: #fff;
+	text-decoration: none;
 }
