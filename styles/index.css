@@ -5,37 +5,42 @@
 /* TOP BAR */
 
 .top-bar{
-    padding: 4px 0;
+    padding: 0px 0;
+
     font-size: 14px;
     color: #FF6F61;
     background: #000000;
 }
-/* .navbar-brand i{
+.container-fluid{
     display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-/* .top-bar i {
-    margin-right: 8px;
-} */
+}
+
+
 .navbar-brand{
-  color:#FF6F61;
-  cursor: pointer;
+    flex-direction: row;
+
+}
+.container-fluid a:first-child{
+    margin-right: 85%;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.navbar-brand p{
+    margin: 0;
+    padding: 0px;
+    color: #FF6F61;
+}
+.navbar-brand p:hover{
+    color: orangered;
 }
 ion-icon{
-    font-size: 35px;
-    color: #FF6F61;;
+    color: #FF6F61;
+    margin: 0px;
 }
 ion-icon:hover{
-    color:orangered ;
+    color: orangered;
 }
-.top-bar .brand1{
- position: relative;
- float: right; 
-}
-.navbar-brand:hover{
-    color:orangered;
-}
+
 
 /* MAIN BAR */
 
