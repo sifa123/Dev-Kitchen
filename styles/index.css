@@ -9,27 +9,48 @@ body{
 
 
 /* TOP BAR */
+
 .top-bar{
-    padding: 4px 0;
+    padding: 0px 0;
+
     font-size: 14px;
     color: #FF6F61;
     background: #000000;
 }
-.top-bar i {
-    margin-right: 8px;
+.container-fluid{
+    display: flex;
 }
+
+
 .navbar-brand{
-  color:#FF6F61;
-  cursor: pointer;
+    flex-direction: row;
+
 }
-.top-bar .brand1{
- position: relative;
- left:900px;  
+.container-fluid a:first-child{
+    margin-right: 85%;
+    margin-bottom: 0px;
+    padding: 0px;
 }
-.navbar-brand:hover{
-    color:orangered;
+.navbar-brand p{
+    margin: 0px;
+    padding: 0px;
+    color: #FF6F61;
 }
+.navbar-brand p:hover{
+    color: orangered;
+}
+ion-icon{
+    color: #FF6F61;
+    margin: 0px;
+}
+ion-icon:hover{
+    color: orangered;
+}
+
+
+
 /* MAIN BAR */
+
 #navbar{
     display:flex;
     align-items:center;
