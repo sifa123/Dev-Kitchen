@@ -1,5 +1,6 @@
 # Dev Kitchen
- Hello!! Welcome to Dev Kitchen. This is a restuarent, here you will see many delecious items, food reviews, you can book a table from our website and so many things.
+ Hello!! Welcome to Dev Kitchen.  
+This project is a restaurant website and has been developed to meet the needs of a simple restaurant. Here the user will see many delicious items, food reviews, they can even book a table straight from our website and so many other intriguing yet helpful things. 
 
 ## Languages will be used:
 

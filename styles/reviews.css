@@ -1,10 +1,44 @@
-*{
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
-	outline: none;
-	border:none;
-}
-body{
-	
-}
+.image{
+	background-image: url('https://media.gettyimages.com/photos/blank-white-diary-with-pen-coffee-and-smart-phone-picture-id872927274?s=2048x2048');
+	width: 1050px;
+	 height: 300px;
+	 margin-top: 50px;
+	 margin-left:100px;
+  }
+  
+  .button{
+	color: red;
+  }
+  
+  .profile-image{
+	  width: 15%;
+		height:15%;
+		border-radius: 50%;
+	  text-align:center;
+	  border: solid red;
+  }
+  
+  .container-fluid{
+	  text-align: center;
+  }
+  .image-text{
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 20px;
+  }
+  .name{
+	color: red;
+	font-weight: bolder;
+  }
+  .carousel-indicators {
+  top: 280px;
+  }
+  
+  .carousel .carousel-indicators li.active {background-color: red;}
+  .testimonial-carousel .carousel-control::before {
+	  color: red;
+  }
+  
+
+ 
