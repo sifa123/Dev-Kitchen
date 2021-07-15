@@ -20,7 +20,9 @@ body{
 .container-fluid{
     display: flex;
 }
-
+.nav-item-top {
+    padding: 2px 18px;
+}
 
 .navbar-brand{
     flex-direction: row;
@@ -67,6 +69,7 @@ ion-icon:hover{
     right:45px;
 }
 #logo{
+    padding-left: 10%;
     margin:20px 25px;
     position: relative;
     right:100px;
@@ -80,7 +83,7 @@ ion-icon:hover{
     display:block;
     position:absolute;
     z-index:-1;
-    background:linear-gradient(to right,rgb(193, 245, 228),rgb(204, 204, 248));;
+    background:linear-gradient(to right,rgb(193, 245, 228),rgb(204, 204, 248));
     opacity:1;
     height:100%;
     width:100%;
