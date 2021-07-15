@@ -76,4 +76,16 @@
     color:black;
     background-color: blanchedalmond;
 }
+#navbar ul li a{
+  background-position: center;
+  transition: background 0.8s;
+}
+#navbar ul li a:hover {
+  background: blanchedalmond radial-gradient(circle, transparent 1%, blanchedalmond 1%) center/15000%;
+}
+#navbar ul li a:active {
 
+  background-color:rgb(89, 193, 241);
+  background-size: 100%;
+  transition: background 0s;
+}
