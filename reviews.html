@@ -1,93 +1,69 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Reviews</title>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/reviews.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title></title>
+  </head>
+  <body>
+  <div class="image">
+    <div id="carouselExampleControls" class="carousel slide" data-interval="3000" data-ride="carousel">
+      <ol class="carousel-indicators indicator">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
 
-	<!-- Font Awesome CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Bootstrap Stylesheet -->
-	<link rel="stylesheet" href="bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles/reviews.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+   <div class="carousel-inner">
+     <div class="carousel-item active container-fluid">
+     <img class="profile-image"src="https://i.pinimg.com/originals/b3/4e/50/b34e50321e91714ed67c66c9132d59ca.jpg" alt="...">
+     <div class="image-text">
+               <p>The best restaurant i have came across in my entire life.</p>
 
-</head>
-<body>
+       <div class="name">
+         <em>Anne Teak</em>
+       </div>
 
-	<div id="carouselExampleControls" class="carousel slide" data-interval="3000" data-ride="carousel">
-		<div class="carousel-inner">
-		  <div class="carousel-item active container-fluid">
-			<img class="image"src="https://i.pinimg.com/originals/b3/4e/50/b34e50321e91714ed67c66c9132d59ca.jpg" alt="...">
-			<div class="image-text">
-                <p>The best restaurant i have came across in my entire life.</p> 
-                
-				<div class="name">
-					<em>Anne Teak</em>
-				</div>
-				
-			</div>  
-		</div>
-		  <div class="carousel-item container-fluid">
-			<img class="image" src="https://mk0trickyphotos51tq5.kinstacdn.com/wp-content/uploads/2017/08/final-1.png"  alt="...">
-			<div class="image-text">
-                <p>Value for money. The swimming pool is also great.</p> 
-				<div class="name">
-					<em>Phil Morrison</em>
-				</div>
-				
-			</div>  
-		</div>
-		  <div class="carousel-item container-fluid">
-			  <div>
-			<img class="image" src="https://i.pinimg.com/originals/ea/6c/93/ea6c931c623881ecd29955db118c7742.png"  alt="...">
-		</div>
-			<div class="image-text">
-                <p>The food was delicious. Hospitality was also great.</p> 
-				<div class="name">
-					<em>Amanda Hug</em>
-				</div>
-				
-			</div>
-			   
-		</div>
-		</div>
-		<a class="carousel-control-prev slider" href="#carouselExampleControls" role="button" data-slide="prev">
-		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		  <span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		  <span class="sr-only slider">Next</span>
-		</a>
-	  </div>
+     </div>
+   </div>
+     <div class="carousel-item container-fluid">
+     <img class="profile-image"src="https://mk0trickyphotos51tq5.kinstacdn.com/wp-content/uploads/2017/08/final-1.png"  alt="...">
+     <div class="image-text">
+               <p>Value for money. The swimming pool is also great.</p>
+       <div class="name">
+         <em>Phil Morrison</em>
+       </div>
 
-		<!-- Footer -->
-		<footer>
-			<div class="container" style="padding: 50px 0;" align="center">
-				<a href="https://www.facebook.com/DevIncept">
-					<i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-				</a>
-				<a href="mailto:support@devincept.tech">
-					<i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-				</a>
-				<a href="https://www.linkedin.com/company/devincept/mycompany/">
-					<i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-				</a>
-				<a href="https://www.instagram.com/devincept.tech/">
-					<i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-				</a>
-				<a href="#">
-					<i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-				</a>
-			</div>
-			<div style="background: #1a1d1f;">
-				<p style="color: #b0f8ff; padding: 15px 0;" align="center">
-				&copy; 2021 Copyright: <a href="mailto:devincept@gmail.com"><b>Created By: DevIncept</b></a>
-				</p>
-			</div>
-		</footer>
+     </div>
+   </div>
+     <div class="carousel-item container-fluid">
+       <div>
+     <img  class="profile-image"src="https://i.pinimg.com/originals/ea/6c/93/ea6c931c623881ecd29955db118c7742.png"  alt="...">
+   </div>
+     <div class="image-text">
+               <p>The food was delicious. Hospitality was also great.</p>
+       <div class="name">
+         <em>Amanda Hug</em>
+       </div>
 
-</body>
+     </div>
+
+   </div>
+   </div>
+   <a class="carousel-control-prev slider" href="#carouselExampleControls" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only slider">Next</span>
+   </a>
+   </div>
+  </div>
+
+  </body>
 </html>

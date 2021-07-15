@@ -1,86 +1,44 @@
-*{
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
-	outline: none;
-	border:none;
-}
-body {
-	min-height: 100vh;
-}
-
-/***********************
-          footer
-************************/		  
-
-footer {
-	background: rgb(0, 0, 0);
-	position: sticky;
-	top: 100%;
-}
-
-a:link {
-	padding: 15px;
-	color: #fff;
-	text-decoration: none;
-}
-
-a:visited {
-	
-	color: #fff;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #fff;
-	text-decoration: none;
-}
-
-a:active {
-	color: #fff;
-	text-decoration: none;
-}
-
-
-body{
-	background: linear-gradient(-100deg, #FFEAC9 50%,#BEAEE2 50%);
-}
-
-.container-fluid{
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 70px;
-	
+.image{
+	background-image: url('https://media.gettyimages.com/photos/blank-white-diary-with-pen-coffee-and-smart-phone-picture-id872927274?s=2048x2048');
+	width: 1050px;
+	 height: 300px;
+	 margin-top: 50px;
+	 margin-left:100px;
   }
-
-  p{
-	font-size: 22px;
-	word-spacing: 5px;
-	padding-top: 10px;
-  }
-
-  .name{
-	margin-top: 50px;
-  }
-
   
- .image{
-	  width: 15%;
-	  height:15%;
-	  border-radius: 50%;
+  .button{
+	color: red;
   }
-
-  .image-text{
+  
+  .profile-image{
+	  width: 15%;
+		height:15%;
+		border-radius: 50%;
+	  text-align:center;
+	  border: solid red;
+  }
+  
+  .container-fluid{
 	  text-align: center;
-	  justify-content: center;
-	  display: block;
-	  margin-top: 20px;
-	  height: 200px;
-	  margin-left: 30%;
-	  margin-right: 30%;
-	  background:#262626 ;
-	  color: #fff;
-	  border-radius: 15px;
-	 }
+  }
+  .image-text{
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 20px;
+  }
+  .name{
+	color: red;
+	font-weight: bolder;
+  }
+  .carousel-indicators {
+  top: 280px;
+  }
+  
+  .carousel .carousel-indicators li.active {background-color: red;}
+  .testimonial-carousel .carousel-control::before {
+	  color: red;
+  }
+  
 
  
