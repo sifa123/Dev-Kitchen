@@ -1,0 +1,76 @@
+.bg_color{
+    background:linear-gradient(to right,rgb(193, 245, 228),rgb(204, 204, 248));;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .offer{
+    text-align: center;
+    margin:2px auto 120px !important;
+    color: #fff;
+    font-size: 6rem;
+  }
+  .main{
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  }
+  .service{
+    background-color: white;
+    padding: 20px ;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 10px 9px 0 skyblue;
+    transition: transform .8s;
+  }
+  .service_logo{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: -60px auto 0;
+    background-color: white;
+    border: 15px solid skyblue;
+  
+  }
+  .service_logo img{
+    width: 50px;
+    margin-top: 20px;
+    transition: transform 1s;
+  }
+  .shadowOne{
+    height: 100px;
+    width: 80%;
+    background: white;
+    position: absolute; 
+    border-radius: 10px;
+    bottom: 0;
+    left: 9%;
+    z-index: -1;
+    box-shadow: 0 10px 9px 0 skyblue;
+    transition: transform .8s;
+  }
+  .shadowTwo{
+    height: 90px;
+    width: 64%;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 16%;
+    z-index: -2;
+  }
+  .main:hover .service{
+    transform: translateY(-50px);
+  }
+  .main:hover .shadowOne{
+    transform: translateY(-25px);
+  }
+  .main:hover img{
+    transform: rotate(360deg);
+  }
+  

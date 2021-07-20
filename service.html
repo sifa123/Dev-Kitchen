@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Document</title>
     <!-- Bootstrap scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -14,10 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/fav-icon.png" type="image/png">
-    <link rel="stylesheet" href=".\styles\index.css">
-    
-    <title>Home</title>
 
+    <link rel="stylesheet" href="/styles/service.css">
+    <link rel="stylesheet" href=".\styles\index.css">
 </head>
 <body>
     <!-- TOP BAR -->
@@ -30,23 +28,9 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item-top">
-                <a class="navbar-brand" href="https://mail.google.com/mail/" target="_blank"><ion-icon name="mail"></ion-icon><p>Mail</p>
-                </a>
-            </li>
-            <li class="nav-item-top">
-                <a class="navbar-brand" href="https://duo.google.com/?web"target="_blank"><ion-icon name="call"></ion-icon>
-                    <p>Call Us</p></a>
-            </li>
-          </ul>
-        </div>
+        
       </nav>
-
-
-       <!-- MAIN BAR-->
-       <nav id="navbar">
+    <nav id="navbar">
         <div id="logo">
           <img src=".\images\logo.png" alt="logo image">
       </div>
@@ -61,37 +45,59 @@
            </ul>
           
     </nav> 
-       
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-    <!-- Footer -->
-	<footer>
-		<div class="container" style="padding: 50px 0;" align="center">
-			<a href="https://www.facebook.com/DevIncept">
-				<i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-			</a>
-			<a href="mailto:support@devincept.tech">
-				<i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-			</a>
-			<a href="https://www.linkedin.com/company/devincept/mycompany/">
-				<i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-			</a>
-			<a href="https://www.instagram.com/devincept.tech/">
-				<i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-			</a>
-			<a href="#">
-				<i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-			</a>
-		</div>
-		<div style="background: #1a1d1f;">
-			<p style="color: #b0f8ff; padding: 15px 0;" align="center">
-			&copy; 2021 Copyright: <a href="mailto:devincept@gmail.com"><b>Created By: DevIncept</b></a>
-			</p>
-		</div>
-	</footer>
-
+    <div class="bg_color">
+        <h1 class="offer">Our Services...</h1>
+        <br>
+        <div class="container" >
+          <div class="row" >
+            <div class="col" >
+              <div class="main">
+                <div class="service">
+                  <div class="service_logo">
+                    <img src="./images/icons8-cooking-pot-50.png">
+                  </div>
+                  <h3 class="h3tag">Service One</h3>
+                  <p style="font-size: 1rem;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus, 
+                  </p>
+                </div>
+                <div class="shadowOne"></div>
+                <div class="shadowTwo"></div>
+              </div>
+            </div>
+              <div class="col" >
+                <div class="main">
+                  <div class="service">
+                    <div class="service_logo">
+                      <img src="./images/icons8-cooking-pot-50.png">
+                    </div>
+                    <h3 class="h3tag">Service Two</h3>
+                    <p style="font-size: 1rem;">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus,  
+                    </p>
+                  </div>
+                  <div class="shadowOne"></div>
+                  <div class="shadowTwo"></div>
+                </div>
+            </div>
+            <div class="col" >
+              <div class="main">
+                <div class="service">
+                  <div class="service_logo">
+                    <img src="./images/icons8-cooking-pot-50.png">
+                  </div>
+                  <h3 class="h3tag">Service Three</h3>
+                  <p style="font-size: 1rem;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus, 
+                  </p>
+                </div>
+                <div class="shadowOne"></div>
+                <div class="shadowTwo"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
 </body>
 </html>
