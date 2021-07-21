@@ -43,6 +43,7 @@ ion-icon:hover{
 
 
 
+
 /* MAIN BAR */
 
 #navbar{
@@ -74,6 +75,7 @@ ion-icon:hover{
     display:block;
     position:absolute;
     z-index:-1;
+    background:linear-gradient(to right,rgb(193, 245, 228),rgb(204, 204, 248));;
     opacity:1;
     height:100%;
     width:100%;
@@ -86,7 +88,7 @@ ion-icon:hover{
     font-size:1.3rem;
 }
 #navbar ul li a{
-
+    color:rgb(8, 80, 161);
     padding:3px 22px;
     display:block;
     text-decoration:none;
@@ -104,12 +106,12 @@ ion-icon:hover{
   background: blanchedalmond radial-gradient(circle, transparent 1%, blanchedalmond 1%) center/15000%;
 }
 #navbar ul li a:active {
+
+
+  background-color:rgb(89, 193, 241);
   background-size: 100%;
   transition: background 0s;
 }
-
-
-
 
 
 
