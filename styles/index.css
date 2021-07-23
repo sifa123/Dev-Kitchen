@@ -64,11 +64,11 @@ ion-icon:hover{
 #logo{
     margin:20px 25px;
     position: relative;
-    right:100px;
+    right:30px;
 }
 #logo img{
     margin:35px 40px;
-    height:70px;
+    height:65px;
 }
 #navbar::before{
     
