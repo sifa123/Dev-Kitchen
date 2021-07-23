@@ -156,6 +156,18 @@ body{
     min-height: 100vh;
 }
 
+
+#btnScrollToTop img {
+    
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 28px;
+}
+
+
 /* HERO SECTION */
 
 section{
