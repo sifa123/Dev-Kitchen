@@ -32,14 +32,7 @@ body{
     margin-bottom: 0px;
     padding: 0px;
 }
-.navbar-brand p{
-    margin: 0px;
-    padding: 0px;
-    color: #FF6F61;
-}
-.navbar-brand p:hover{
-    color: orangered;
-}
+
 ion-icon{
     color: #FF6F61;
     margin: 0px;
@@ -47,6 +40,7 @@ ion-icon{
 ion-icon:hover{
     color: orangered;
 }
+
 
 
 
@@ -70,11 +64,11 @@ ion-icon:hover{
 #logo{
     margin:20px 25px;
     position: relative;
-    right:100px;
+    right:30px;
 }
 #logo img{
     margin:35px 40px;
-    height:70px;
+    height:65px;
 }
 #navbar::before{
     
@@ -121,9 +115,6 @@ ion-icon:hover{
 
 
 
-
-
-
 /***********************
           footer
 ************************/		  
@@ -164,6 +155,160 @@ a:active {
 body{
     min-height: 100vh;
 }
+
+
+#btnScrollToTop img {
+    
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 28px;
+}
+
+
+/* HERO SECTION */
+
+section{
+    padding:9%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.about{
+    display:flex;
+    flex-wrap: wrap;
+    min-height:100vh;
+    background-size: cover;
+    align-items: center;
+    background:url(/images/ug.png);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,500&display=swap');
+h1{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size:50px;
+}
+.image img{
+    float: right;
+    padding-top: 0px;
+    height:30%;
+    width:30%;
+   padding-top: 5%;
+   padding-right: 5%;
+   cursor: context-menu;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.brief{
+font-family: 'Courgette', cursive;
+font-size: 17.5px;
+text-decoration: italic;
+}
+
+.dlogo{
+    cursor: pointer;
+}
+.dlogo:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+}
+/* HERO SECTION ENDS */
+
+/* SERVICES */
+
+  main{
+    display:flex;
+    flex-wrap: wrap;
+    background:url(/images/ug.png) no-repeat;
+    background-size: cover;
+     padding-left: 17%;
+    padding-bottom: 15%;
+
+  }
+.flip-card {
+    
+    background-color: transparent;
+    width: 300px;
+    cursor: context-menu;
+    padding: 15px 20px;
+    justify-content: space-between;
+    display: flex;
+    height: 300px;
+    padding-bottom: 0%;
+    perspective: 1000px;
+  }
+.flip-card-front .man{
+height:60%;
+width:60%;
+margin-top:70px;
+}
+
+.serv {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom:2px;
+}
+
+
+  h1{
+      padding-top: 10%;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: rgb(229, 157, 157);
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #db92a2;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
 
 
 
