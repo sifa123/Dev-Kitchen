@@ -455,3 +455,43 @@
         ]
       });
     </script>
+    <script>
+
+      $(document).ready(function(){
+        $('.counter').each(function() {
+          $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+          }, {
+            duration: 8000,
+            easing: 'swing',
+            step: function(now) {
+              $(this).text(Math.ceil(now));
+            }
+          });
+        });
+      });
+      $('#butt').click(function(){
+        if(navigator.geolocation)
+        {
+          const success=(position)=>{
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+
+            const geoapi=`https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=4b5a0decf1474b0793cf9d3727b4228d`;
+
+            fetch(geoapi)
+            .then(res => res.json())
+            .then(data =>{
+              $('#location').text(data.results[0].formatted);
+            })
+          }
+
+          const error=()=>{
+            $('#location').text("Please try again");
+          }
+          navigator.geolocation.getCurrentPosition(success,error);
+        }
+      });
+    </script>
+  </body>
+</html>
