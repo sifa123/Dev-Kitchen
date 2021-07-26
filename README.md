@@ -32,7 +32,7 @@ This project is a restaurant website and has been developed to meet the needs of
 
 <p>
  <p>
-<img src="images\logo.png" height = "95" align = "left" padding-bottom = "10px"/></p>
+<img src="images\fav-icon.png" height = "95" align = "left" padding-bottom = "10px"/></p>
 <div>
 At Dev-Kitchen , we’re tied in with presenting crisp food, regardless of
 whether it implies going the additional mile. When you stroll through our entryways, we do what we can to make everybody feel
