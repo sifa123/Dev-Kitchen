@@ -15,6 +15,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <link rel="stylesheet" href=".\styles\index.css">
+    <link rel="stylesheet" href=".\styles\service.css">
     <title>Dev-Kitchen</title>
   </head>
   <style>
@@ -52,56 +54,56 @@
     .icon-social:hover{
       color:#fff!important;
     }
+    .top-bar{
+      padding:12px 0!important;
+    }
   </style>
   <body>
-    <section id="header">
-      <span class="dropdown">
-        <button style="padding-left: 20px!important;padding-right: 20px!important" class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          <i style="margin-right: 8px;padding-right: 9px;border-right: 1px solid #4a4a4a;font-size: 23px" class="fa fa-map-marker" aria-hidden="true"></i> <span id="location">Enter your Delivery Location<span>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a id="butt" class="btn btn-warning" href="#"><i style="margin-right: 8px;padding-right: 9px;border-right: 1px solid #ffc107;font-size: 23px" class="fa fa-compass" aria-hidden="true"></i> Select your Current Delivery Location</a></li>
-        </ul>
-      </span>
-      <span style="float:right;margin-top: 5px">
-        <span style="font-size: 20px;margin-right: 50px;color:#ffc107"><i style="margin-right: 5px;" class="fa fa-phone-square" aria-hidden="true"></i> +91 9876543210</span>
-        <span style="font-size: 20px;margin-right: 10px;color:#ffc107"><i style="margin-right: 5px;" class="fa fa-envelope" aria-hidden="true"></i> dev-kitchen@gmail.com</span>
-        
-      </span>
-    </section>
-    <nav id="mainNavbar" class="navbar navbar-expand-md bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand ms-3 me-4" href="#landing"><img style="height:50px;width:50px" src="images/fav-icon.png"></a>
-        <button class="navbar-toggler border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon border border-dark"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active me-3 ms-1" aria-current="page" href="#about">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-3 ms-1" aria-current="page" href="#about">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-1 me-3" href="#projects">MENU</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-3 ms-1" href="#skills">REVIEWS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-3 ms-1" href="#contact">GALLERY</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-3 ms-1" href="#contact">TABLE RESERVATION</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-3 ms-1" href="#contact">CONTACT US</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <nav class="top-bar navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand brand1" href="https://www.google.com/maps/" target="_blank"><i>
+        <ion-icon name="location-outline"></ion-icon>
+      </i> Connaught Place
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item-top">
+          <a class="navbar-brand" href="https://mail.google.com/mail/" target="_blank">
+            <ion-icon name="mail"></ion-icon> devkitchen@gmail.com
+          </a>
+        </li>
+        <li class="nav-item-top">
+          <a class="navbar-brand" href="https://duo.google.com/?web" target="_blank">
+            <ion-icon name="call"></ion-icon>+91 89123 49759
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- MAIN BAR-->
+  <nav id="navbar">
+    <div id="logo">
+      <a href="index.html"> <img src=".\images\fav-icon.png" alt="logo image" class="dlogo"></a>
+    </div>
+    <ul>
+      <li class="index.html"><a href="/Dev-Kitchen/index.html">Home</a></li>
+      <li class="item"><a href="about.html">About Us</a></li>
+      <li class="item"><a href="./service.html">Services</a></li>
+      <li class="item"><a href="menu.html" target="_blank">Menu</a></li>
+      <li class="item"><a href="gallery.html" target="_blank">Gallery</a></li>
+      <li class="item"><a href="reviews.html" target="_blank">Reviews</a></li>
+      <li class="item"><a href="table-reserv.html" target="_blank">Table Reservation</a></li>
+      <li class="item"><a href="contact.html" target="_blank">Contact Us</a></li>
+
+  </nav>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -110,24 +112,24 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img style="width:100%;height:480px" src="images/slide1.jpg" class="d-block w-100" alt="...">
+          <img style="width:100%;height:480px;opacity:0.7" src="images/slide1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Dev's-Kitchen</h1>
-            <h4>Discover the best food and drinks in your location</h4>
+            <h1 style="color:black">Dev's-Kitchen</h1>
+            <h4 style="color:black">Discover the best food and drinks in your location</h4>
           </div>
         </div>
         <div class="carousel-item">
-          <img style="width:100%;height:480px" src="images/slide2.jpg" class="d-block w-100" alt="...">
+          <img style="width:100%;height:480px;opacity:0.7" src="images/slide2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Dev's-Kitchen</h1>
-            <h4>Discover the best food and drinks in your location</h4>
+            <h1 style="color:black">Dev's-Kitchen</h1>
+            <h4 style="color:black">Discover the best food and drinks in your location</h4>
           </div>
         </div>
         <div class="carousel-item">
-          <img style="width:100%;height:480px" src="images/slide3.jpg" class="d-block w-100" alt="...">
+          <img style="width:100%;height:480px;opacity:0.7" src="images/slide3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Dev's-Kitchen</h1>
-            <h4>Discover the best food and drinks in your location</h4>
+            <h1 style="color:black">Dev's-Kitchen</h1>
+            <h4 style="color:black">Discover the best food and drinks in your location</h4>
           </div>
         </div>
       </div>
@@ -140,28 +142,18 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <section style="background-color: #ffc107;padding:27px 35px" id="chef">
-      <div style="display: flex;justify-content: center;">
-        <h2 style="color:#4a4a4a;padding-bottom: 5px;border-bottom: 2px solid #4a4a4a">EXECUTIVE CHEF</h2>
-      </div>
-      <div style="border-radius: 25px;margin-top: 15px;margin-left: 20px" class="row">
-        <div style="background-color: #4a4a4a;padding:35px 40px;border-radius: 30px;padding-bottom: 0px!important" class="col-md-7">
-          <h4 style="color: #fff">Guests listening to your restaurant opening speech will have a healthy appetite for your words of wisdom. With the help of these speeches you will feed their minds by talking about the importance of good food in our lives, of the value of quality ingredients and the pleasure to be had from a fine meal.You will also say that you are sure the restaurant is set to become a firm favorite with people in the locality. You may wish to end your restaurant opening speech with a tasty morsel, courtesy of the light-hearted poems provided.</h4>
-          <div style="float: right;">
-            <h4 style="color:#ffc107">Signature : <img style="height:60px;width:210px" src="images/signature.png"></h4>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <img style="height:80%;width:80%;border-radius: 30px;margin:10px 25px;border:2px solid #4a4a4a" src="images/chef.jpg">
-          <div style="display: flex;justify-content: center;">
-            <p style="color:#fff;font-size: 25px;margin-bottom: 0rem!important">Robert Downey Franklin</p>
-          </div>
-          <div style="display: flex;justify-content: center;">
-            <p style="color:#4a4a4a">(Executive Chef)</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="image">
+    <img src="./images/hero.png" class="vert-move">
+  </div>
+    <section class="about" id="about">
+    <div class="content">
+      <h1>Served With Love ❤️</h1>
+      <p class="brief"><br>At Dev-Kitchen , we’re tied in with presenting crisp food, regardless of<br>
+        whether it implies going the additional mile. When you stroll through our entryways,
+        we do what we can to make everybody feel <br>comfortable and happy.</p>
+      <a href="#" class="btn">Explore</a>
+    </div><br>
+  </section>
     <section style="background-color: #4a4a4a;padding:27px 35px" id="menu">
       <div style="display: flex;justify-content: center;">
         <h2 style="color:#ffc107;padding-bottom: 5px;border-bottom: 2px solid #ffc107">MENU</h2>
@@ -258,6 +250,59 @@
         </div>
       </div>
     </section>
+    <div style="padding-bottom: 60px!important" class="bg_color">
+        <h1 class="offer">Our Services...</h1>
+        <br>
+        <div class="container" >
+          <div  class="row" >
+            <div class="col" >
+              <div class="main">
+                <div class="service">
+                  <div class="service_logo">
+                    <img src="./images/icons8-cooking-pot-50.png">
+                  </div>
+                  <h3 class="h3tag">Service One</h3>
+                  <p style="font-size: 1rem;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus, 
+                  </p>
+                </div>
+                <div class="shadowOne"></div>
+                <div class="shadowTwo"></div>
+              </div>
+            </div>
+              <div class="col" >
+                <div class="main">
+                  <div class="service">
+                    <div class="service_logo">
+                      <img src="./images/icons8-cooking-pot-50.png">
+                    </div>
+                    <h3 class="h3tag">Service Two</h3>
+                    <p style="font-size: 1rem;">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus,  
+                    </p>
+                  </div>
+                  <div class="shadowOne"></div>
+                  <div class="shadowTwo"></div>
+                </div>
+            </div>
+            <div class="col" >
+              <div class="main">
+                <div class="service">
+                  <div class="service_logo">
+                    <img src="./images/icons8-cooking-pot-50.png">
+                  </div>
+                  <h3 class="h3tag">Service Three</h3>
+                  <p style="font-size: 1rem;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus, 
+                  </p>
+                </div>
+                <div class="shadowOne"></div>
+                <div class="shadowTwo"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <section style="background-color: #4a4a4a;padding:27px 35px" id="reviews">
       <div style="display: flex;justify-content: center;">
         <h2 style="color:#ffc107;padding-bottom: 5px;border-bottom: 2px solid #ffc107">CUSTOMER REVIEWS</h2>
@@ -394,29 +439,54 @@
       </div>
     </section>
     <footer>
-      <div style="padding: 20px 0;background-color: #4a4a4a" align="center">
-        <a style="color:#ffc107;text-decoration: none;" href="https://www.facebook.com/DevIncept">
-          <i style="margin-right: 8px;color:#ffc107" class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x icon-social"></i>
-        </a>
-        <a style="color:#ffc107;text-decoration: none;" href="mailto:support@devincept.tech">
-          <i style="margin-right: 8px;color:#ffc107" class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x icon-social"></i>
-        </a>
-        <a style="color:#ffc107;text-decoration: none;" href="https://www.linkedin.com/company/devincept/mycompany/">
-          <i style="margin-right: 8px;color:#ffc107" class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x icon-social"></i>
-        </a>
-        <a style="color:#ffc107;text-decoration: none;" href="https://www.instagram.com/devincept.tech/">
-          <i style="margin-right: 8px;color:#ffc107" class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x icon-social"></i>
-        </a>
-        <a style="color:#ffc107;text-decoration: none;" href="#">
-          <i style="margin-right: 8px;color:#ffc107" class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x icon-social"></i>
-        </a>
-      </div>
-      <div style="background:#000;">
-        <p style="color: #ffc107; padding: 15px 0;" align="center">
-          &copy; 2021 Copyright: <a style="color:#4a4a4a" href="mailto:devincept@gmail.com"><b>Created By: DevIncept</b></a>
-        </p>
-      </div>
-    </footer>
+    <div class="container" style="padding: 50px 0;" align="center">
+      <a href="https://www.facebook.com/DevIncept">
+        <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+      <a href="mailto:support@devincept.tech">
+        <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/devincept/mycompany/">
+        <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/devincept.tech/">
+        <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+    </div>
+    <div style="background: #1a1d1f;">
+      <p style="color: #b0f8ff; padding: 15px 0;" align="center">
+        &copy; 2021 Copyright: <a href="mailto:devincept@gmail.com"><b>Created By: DevIncept</b></a>
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- scroll to top button -->
+  <button id="btnScrollToTop">
+    <img src="images/scrtotop.jfif" alt="scrbtn">
+  </button>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script>
+ $(document).ready(function () {
+     $(window).scroll(function () {
+         if ($(this).scrollTop() > 100) {
+             $('#btnScrollToTop').fadeIn();
+         } else {
+             $('#btnScrollToTop').fadeOut();
+         }
+     });
+     $('#btnScrollToTop').click(function () {
+         $("html, body").animate({
+             scrollTop: 0
+         },90);
+         return false;
+     });
+ });
+</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -451,7 +521,9 @@
               slidesToScroll: 1
             }
           }
-         
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
         ]
       });
     </script>
