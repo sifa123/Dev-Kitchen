@@ -217,8 +217,8 @@ img.vert-move {
 }
 
 .brief{
-font-family: 'Courgette', cursive;
-font-size: 17.5px;
+font-family: 'adobe hebrew';
+font-size: 22px;
 text-decoration: italic;
 }
 
@@ -261,6 +261,7 @@ margin-top:70px;
 }
 
 .serv {
+  font-family: algerian;
   text-align: center;
   padding-top: 0px;
   padding-bottom:2px;
