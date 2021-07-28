@@ -179,7 +179,6 @@ section{
 .about{
     display:flex;
     flex-wrap: wrap;
-    min-height:100vh;
     background-size: cover;
     align-items: center;
     background:url(/images/ug.png);
@@ -303,17 +302,3 @@ margin-top:70px;
     color: white;
     transform: rotateY(180deg);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
