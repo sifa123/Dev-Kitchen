@@ -298,3 +298,32 @@ h1 {
 .flip-card-back h1 {
   font-size: 1.7rem;
 }
+
+.link a {
+  padding: 10px;
+}
+
+.fa-facebook:hover {
+  font-size: 1.5rem;
+  color: #4589be;
+}
+
+.fa-google-plus:hover {
+  font-size: 1.5rem;
+  color: #ff1919;
+}
+
+.fa-linkedin:hover {
+  font-size: 1.5rem;
+  color: #3472eb;
+}
+
+.fa-instagram:hover {
+  font-size: 1.5rem;
+  color: #eb3472;
+}
+
+.fa-twitter:hover {
+  font-size: 1.5rem;
+  color: aqua;
+}
