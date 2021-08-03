@@ -1,100 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap scripts -->
+    <title>Our Services</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+    <link rel="stylesheet" href="./styles/service.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="images/fav-icon.png" type="image/png">
-
-    <link rel="stylesheet" href=".\styles\service.css">
-    <link rel="stylesheet" href=".\styles\index.css">
 </head>
-<body>
-    <!-- TOP BAR -->
-    <nav class="top-bar navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand brand1" href="https://www.google.com/maps/" target="_blank"><i>
-            <ion-icon name="location-outline"></ion-icon></i>
-            <p>Location</p>
-            </a>
- 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-      </nav>
-    <nav id="navbar">
-        <div id="logo">
-          <img src=".\images\logo.png" alt="logo image">
-      </div>
-        <ul>
-            <li class="item"><a href="/Dev-Kitchen/index.html">Home</a></li>
-            <li class="item"><a href="#about">About Us</a></li>
-            <li class="item"><a href="/service.html">Services</a></li>
-            <li class="item"><a href="menu.html">Menu</a></li>
-            <li class="item"><a href="#gallery">Gallery</a></li>
-            <li class="item"><a href="reviews.html">Reviews</a></li>
-            <li class="item"><a href="#contact">Contact</a></li>
-           </ul>
-          
-    </nav> 
 
-    <div class="bg_color">
-        <h1 class="offer">Our Services...</h1>
-        <br>
-        <div class="container" >
-          <div class="row" >
-            <div class="col" >
-              <div class="main">
-                <div class="service">
-                  <div class="service_logo">
-                    <img src="./images/icons8-cooking-pot-50.png">
-                  </div>
-                  <h3 class="h3tag">Service One</h3>
-                  <p style="font-size: 1rem;">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus, 
-                  </p>
-                </div>
-                <div class="shadowOne"></div>
-                <div class="shadowTwo"></div>
-              </div>
-            </div>
-              <div class="col" >
-                <div class="main">
-                  <div class="service">
-                    <div class="service_logo">
-                      <img src="./images/icons8-cooking-pot-50.png">
+<body>
+    <!-- partial:index.partial.html -->
+    <section class="services section-bg" id="services">
+        <div class="container">
+            <header class="section-header">
+                <h3> Our Services</h3>
+
+                <p>We provide a great value to our customers by offering them huge discounts and offers</p>
+            </header>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon" style="background: #000;">
+                            <i class="fa fa-briefcase service-icon" style="color: #b8da24;"></i>
+                        </div>
+
+                        <h4 class="title"><a href="">Hire Us</a></h4>
+
+                        <p class="description">Send us an email to abc@gmail.com for service</p>
                     </div>
-                    <h3 class="h3tag">Service Two</h3>
-                    <p style="font-size: 1rem;">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus,  
-                    </p>
-                  </div>
-                  <div class="shadowOne"></div>
-                  <div class="shadowTwo"></div>
                 </div>
-            </div>
-            <div class="col" >
-              <div class="main">
-                <div class="service">
-                  <div class="service_logo">
-                    <img src="./images/icons8-cooking-pot-50.png">
-                  </div>
-                  <h3 class="h3tag">Service Three</h3>
-                  <p style="font-size: 1rem;">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptatibus, 
-                  </p>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon" style="background: #000;">
+                            <i class="fa fa-clipboard service-icon" style="color: #f4f751;"></i>
+                        </div>
+
+                        <h4 class="title"><a href="">Menu</a></h4>
+
+                        <p class="description"> We have a wide range of food items and dishes</p>
+                    </div>
                 </div>
-                <div class="shadowOne"></div>
-                <div class="shadowTwo"></div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon" style="background: #000;">
+                            <i class="fa fa-chart-bar service-icon" style="color: #d3e62a;"></i>
+                        </div>
+
+                        <h4 class="title"><a href="">Prices</a></h4>
+
+                        <p class="description"> There are so many items of different price ranges</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon" style="background: #000;">
+                            <i class="fa fa-binoculars service-icon" style="color: #ceeb2b;"></i>
+                        </div>
+
+                        <h4 class="title"><a href="">Find Us</a></h4>
+
+                        <p class="description">You can find us in our map</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon" style="background: #000;">
+                            <i class="fa fa-cog service-icon" style="color:#d1ec37;"></i>
+                        </div>
+
+                        <h4 class="title"><a href="">Improve Us</a></h4>
+
+                        <p class="description">Write a blog about our team to improve the business</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon" style="background: #000;">
+                            <i class="fa fa-calendar-alt service-icon" style="color: #c3e020;"></i>
+                        </div>
+
+                        <h4 class="title"><a href="">Timeline</a></h4>
+
+                        <p class="description">We are always open except Saturday and Sunday</p>
+                    </div>
+                </div>
+
+
             </div>
-          </div>
         </div>
-      </div>
-      <br><br>
+    </section>
+    <!-- partial -->
+
 </body>
+
 </html>
