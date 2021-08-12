@@ -67,6 +67,13 @@ Pull requests and Issues are welcomed. For any changes, please raise an issue fi
 - [Contributing guidelines](https://github.com/sifa123/Dev-Kitchen/blob/main/CONTRIBUTING.md)
 - [Code of conduct](https://github.com/sifa123/Dev-Kitchen/blob/main/CODE_OF_CONDUCT.md)
 
+## Project Admin:
+
+<p align="center">
+<a href="https://github.com/sifa123">
+<img width=20% src="https://avatars.githubusercontent.com/u/63462931?v=4"></p>
+<h5 align="center"><b>Sefat Siddiquea Sifa</b></a>
+
 ## 🌟 Contributors:
 
 Thanks to these wonderful people ✨✨:
@@ -80,13 +87,6 @@ Thanks to these wonderful people ✨✨:
 		</td>
 	</tr>
 </table>
-
-## Project Admin:
-
-<p align="center">
-<a href="https://github.com/sifa123">
-<img width=20% src="https://avatars.githubusercontent.com/u/63462931?v=4"></p>
-<h5 align="center"><b>Sefat Siddiquea Sifa</b></a>
 
 ## Open Source Programs we have been associated with:
   
