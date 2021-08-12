@@ -67,6 +67,20 @@ Pull requests and Issues are welcomed. For any changes, please raise an issue fi
 - [Contributing guidelines](https://github.com/sifa123/Dev-Kitchen/blob/main/CONTRIBUTING.md)
 - [Code of conduct](https://github.com/sifa123/Dev-Kitchen/blob/main/CODE_OF_CONDUCT.md)
 
+## 🌟 Contributors:
+
+Thanks to these wonderful people ✨✨:
+
+<table>
+	<tr>
+		 <td>
+  <a href="https://github.com/sifa123/Dev-Kitchen/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=sifa123/Dev-Kitchen" />
+  </a>
+		</td>
+	</tr>
+</table>
+
 ## Project Admin:
 
 <p align="center">
